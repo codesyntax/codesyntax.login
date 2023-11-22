@@ -39,8 +39,8 @@ setup(
     url="https://github.com/collective/codesyntax.login",
     project_urls={
         "PyPI": "https://pypi.python.org/pypi/codesyntax.login",
-        "Source": "https://github.com/collective/codesyntax.login",
-        "Tracker": "https://github.com/collective/codesyntax.login/issues",
+        "Source": "https://github.com/codesyntax/codesyntax.login",
+        "Tracker": "https://github.com/codesyntax/codesyntax.login/issues",
         # 'Documentation': 'https://codesyntax.login.readthedocs.io/en/latest/',
     },
     license="GPL version 2",
