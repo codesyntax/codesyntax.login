@@ -33,32 +33,9 @@ codesyntax.login
 
 Add-on on to set login basics for CodeSyntax users
 
-Features
---------
+This product is meant to be used together with pas.plugins.oidc and, if wanted, collective.regenv.
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
-
+It creates a user group for CodeSyntax users that will be authorized to log in in a Plone site using pas.plugins.oidc
 
 Installation
 ------------
@@ -75,34 +52,7 @@ Install codesyntax.login by adding it to your buildout::
 
 and then running ``bin/buildout``
 
-
-Authors
--------
-
-Provided by awesome people ;)
-
-
-Contributors
-------------
-
-Put your name here, you deserve it!
-
-- ?
-
-
-Contribute
-----------
-
-- Issue Tracker: https://github.com/collective/codesyntax.login/issues
-- Source Code: https://github.com/collective/codesyntax.login
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+Check pas.plugins.oidc documentation to learn how to configure it.
 
 
 License
