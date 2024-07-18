@@ -2,9 +2,12 @@
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.interface import implementer
 from plone import api
-from pas.plugins.oidc.utils import PLUGIN_ID
 from pas.plugins.oidc.plugins import OIDCPlugin
 
+try:
+    from pas.plugins.oidc import PLUGIN_ID
+except ImportError:
+    from pas.plugins.oidc.utils import PLUGIN_ID
 
 @implementer(INonInstallable)
 class HiddenProfiles(object):
