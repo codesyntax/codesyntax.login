@@ -16,7 +16,7 @@ long_description = "\n\n".join(
 
 setup(
     name="codesyntax.login",
-    version="1.1.dev0",
+    version="1.1",
     description="Add-on on to set login basics for CodeSyntax users",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/

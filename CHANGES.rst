@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1 (unreleased)
+1.1 (2024-07-18)
 ----------------
 
 - Be safe against change of import
